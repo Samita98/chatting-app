@@ -1,0 +1,147 @@
+.card {
+    margin: 60px auto;
+    height: 600px;
+    box-shadow: 10px 10px grey;
+}
+
+.col::-webkit-scrollbar {
+    width: 0px;
+}
+
+.user1 {
+    display: flex;
+}
+
+img {
+    height: 46px;
+    margin: 7px;
+    /* width: 15px; */
+    max-width: 46px;
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
+
+.text1 {
+    margin-left: 20px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.colname {
+    font-size: 20px;
+    height: 23px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 5px 0px 0px 0px;
+    padding: 0px;
+}
+
+.colname1 {
+    text-align: center;
+}
+
+.logout {
+    border: 1px solid black;
+    height: 30px;
+    padding: 0px;
+    width: 100px;
+    text-align: center;
+    background-color: black;
+    border-radius: 3px;
+    position: absolute;
+    top: 13px;
+    right: 12px;
+}
+
+.logout a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.row2 {
+    /* text-align: center; */
+    margin: 10px auto;
+}
+
+input[type="text"] {
+    width: 20rem;
+    padding: 2px 2px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+}
+
+.searchbtn a {
+    color: black;
+}
+
+.searchbtn {
+    margin-left: 10px;
+}
+
+
+/* .lining
+{
+    margin:auto;
+} */
+
+.lining hr {
+    border: none;
+    background-color: #b5b5b5;
+    width: 78%;
+    height: 4px;
+    margin-left: 37px;
+}
+
+.col {
+    overflow-y: auto;
+}
+
+#content a:hover {
+    cursor: pointer;
+    background-color: beige;
+}
+
+#content a {
+    display: flex;
+    text-decoration: none;
+}
+
+#content a {
+    width: 200px;
+}
+
+.immg {
+    margin-left: 20px;
+}
+
+.text2 {
+    margin-left: 40px;
+    text-align: center;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.colname2 {
+    font-size: 20px;
+    height: 23px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 5px 0px 0px 0px;
+    padding: 0px;
+}
+
+.colnam3 {
+    text-align: center;
+    background-color: black;
+}
